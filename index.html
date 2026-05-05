@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Конструктор резюме</title>
+    <style>
+        body { font-family: sans-serif; background-color: #f4f4f4; padding: 20px; }
+        .resume-container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 800px; margin: auto; }
+        h1, h2 { color: #333; }
+        .section { margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1>Конструктор резюме</h1>
+        <div class="section">
+            <button id="inputData">Ввести дані</button>
+            <button id="generateResume">Створити резюме</button>
+            <button id="editResume">Редагувати резюме</button>
+            <button id="saveResume">Зберегти резюме</button>
+            <button id="loadResume">Завантажити резюме</button>
+        </div>
+        <div id="resumeOutput" class="resume-container" style="display:none;"></div>
+    </div>
+    <script src="lb1-3.js" defer></script>
+</body>
+</html>
